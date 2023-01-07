@@ -1,0 +1,18 @@
+body{
+    background-color: #EAF6F6;
+}
+
+hr{
+
+    width: 3% ;/* it will work horizontally */
+    border-style: none; 
+    border-top-style: dotted;
+    border-color: grey;
+    border-width :4px;
+}
+
+img{
+           
+    height: auto;
+    width: 120px;            
+}
