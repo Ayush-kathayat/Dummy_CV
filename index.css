@@ -1,5 +1,8 @@
+
+
 body{
     background-color: #EAF6F6;
+    
 }
 
 hr{
@@ -11,8 +14,30 @@ hr{
     border-width :4px;
 }
 
-img{
+img {
            
     height: auto;
-    width: 120px;            
+    width: 120px; 
+    border-style: dashed dashed dashed dashed;
+    background-color: red;  
+    border-style: dashed dashed dashed dashed;
+    border-color: #66BFBF;  
+          
 }
+
+
+h1,h2 , h3 , h4 , h5 , h6 {
+    color: #66BFBF;
+}
+
+
+
+h1 :hover {
+    color: red;
+    text-decoration: underline;
+    background-color: black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.5s, color 3s;
+}
+
+
